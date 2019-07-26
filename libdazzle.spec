@@ -7,8 +7,8 @@
 %define url_ver %(echo %{version} | cut -d. -f1,2)
 
 Name:           libdazzle
-Version:        3.32.2
-Release:        1
+Version:	3.32.3
+Release:	1
 Summary:        Experimental new features for GTK+ and GLib
 Group:		System/Libraries
 
