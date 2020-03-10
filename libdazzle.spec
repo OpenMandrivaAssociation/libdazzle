@@ -7,7 +7,7 @@
 %define url_ver %(echo %{version} | cut -d. -f1,2)
 
 Name:           libdazzle
-Version:	3.34.1
+Version:	3.36.0
 Release:	1
 Summary:        Experimental new features for GTK+ and GLib
 Group:		System/Libraries
@@ -64,19 +64,15 @@ Provides:       %{name}%{api}-devel = %{version}-%{release}
 The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
-
 %prep
 %autosetup -p1
-
 
 %build
 %meson
 %meson_build
 
-
 %install
 %meson_install
-
 
 %files -n %libname
 %license COPYING
