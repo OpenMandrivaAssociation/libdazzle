@@ -74,7 +74,9 @@ developing applications that use %{name}.
 %install
 %meson_install
 
-%files -n %libname
+%find_lang libdazzle-%{api}
+
+%files -n %libname -f libdazzle-%{api}.lang
 %license COPYING
 %doc AUTHORS NEWS README.md
 %{_bindir}/dazzle-list-counters
