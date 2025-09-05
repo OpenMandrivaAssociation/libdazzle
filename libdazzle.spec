@@ -8,7 +8,7 @@
 
 Name:           libdazzle
 Version:	3.44.0
-Release:	8
+Release:	9
 Summary:        Experimental new features for GTK+ and GLib
 Group:		System/Libraries
 
